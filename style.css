@@ -12,7 +12,9 @@
   --grayish-blue: hsl(229, 6%, 66%);
   --very-light-gray: hsl(0, 0%, 98%);
 }
-
+.container {
+  padding: 1rem;
+}
 body {
   background-color: var(--very-light-gray);
   font-family: "Poppins", sans-serif;
@@ -31,7 +33,6 @@ h1 {
 }
 
 h2 {
-  /* margin-bottom: 1.3rem; */
   font-family: sans-serif;
 }
 
@@ -41,19 +42,17 @@ h3 {
 
 .data {
   text-align: justify;
-  padding: 6rem;
-  /* margin-bottom: 4rem; */
+  padding: 2rem;
 }
 
 .team {
   display: grid;
-  width: 300px;
-  /* box-shadow: 1rem black; */
   padding: 50px;
   margin: 20px;
   margin-bottom: 2rem;
-  margin-left: 6rem;
+  border-radius: 0.3rem;
   background-color: white;
+  box-shadow: 0 4px 8px -9px hsl(234, 12%, 34%);
 }
 
 p {
